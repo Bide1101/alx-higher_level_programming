@@ -1,0 +1,3 @@
+INTRODUCTION TO PYTHON:
+Python is a high-level, interpreted programming language known for its simple syntax and ease of use. It was first released in 1991 by Guido van Rossum and has since become one of the most popular programming languages in the world. Python can be used for a variety of tasks, including web development, data analysis, artificial intelligence, and more. Its versatility, large standard library, and active community make it a popular choice for developers of all skill levels.
+This repository contains fundamental concepts of Python. It includes Python scripts and codes to help build a strong foundation of knowledge in Python.
