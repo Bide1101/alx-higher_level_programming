@@ -1,18 +1,18 @@
 #!/usr/bin/python3
 import dis
-if __name__ == "__main__":
-    filename = 'hidden_4.pyc'
+import marshal
 
-    with open(filename, 'rb') as f:
-        code = f.read()
+if __name__ == "__main__":
+
+    with open('hidden_4.pyc', 'rb') as f:
+        magic = f.read(4)
+        timestamp = f.read(4)
+        code = marshal.load(f)
 
     instructions = dis.get_instructions(code)
-
-    names = set()
     for i in instructions:
-        if i.opname == 'STORE_NAME':
+        if i.opname == 'LOAD_GLOBAL':
             name = instr.argval
             if not name.startswith('__'):
-                names.add(name)
-    for name in names:
-        print(name)
+                print(name)
+
