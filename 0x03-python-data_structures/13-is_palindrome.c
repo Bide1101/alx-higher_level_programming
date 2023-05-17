@@ -62,7 +62,7 @@ listint_t *get_node(listint_t *head, unsigned int index)
 }
 
 /**
-* listLen - gets the number of elements in a linked list
+* list_lenght - gets the number of elements in a linked list
 * @head: head of the list to count
 * Return: Number of elements in the list
 */
