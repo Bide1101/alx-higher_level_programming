@@ -8,7 +8,7 @@ def max_integer(my_list=[]):
         maxi = my_list[0]
         for i in range(length):
             if maxi < my_list[i]:
-                maxi  = my_list[i]
+                maxi = my_list[i]
             else:
                 continue
         return maxi
