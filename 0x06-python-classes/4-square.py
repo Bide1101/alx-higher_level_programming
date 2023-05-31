@@ -3,15 +3,16 @@
 
 
 class Square:
+    """__init__ method initializes the size attribute"""
     def __init__(self, size=0):
         self.size = size
 
-    """__init__ method initializes the size attribute"""
+    """getter method - Gets the value of the size attribute"""
     @property
     def size(self):
         return self.__size
 
-    """getter method - Gets the value of the size attribute"""
+    """setter method - sets the value of the size attribute"""
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
