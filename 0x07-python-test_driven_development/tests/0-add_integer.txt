@@ -1,0 +1,62 @@
+Importing the function from the module:
+Import the add_integer function from the 0-add_integer module.
+
+Checking for module docstring:
+Ensure that the module has a docstring.
+
+Checking for function docstring:
+Ensure that the add_integer function has a docstring.
+
+Checking regular addition:
+Verify that adding two integers returns the correct sum.
+
+Checking positive with negative:
+Verify that adding a positive integer with a negative integer returns the correct sum.
+
+Checking negative with positive:
+Verify that adding a negative integer with a positive integer returns the correct sum.
+
+Checking addition over multiple values:
+Test adding a range of numbers to their respective squares and verify the results.
+
+Checking float with int:
+Verify that adding a float and an integer returns the correct sum.
+
+Checking int with float:
+Verify that adding an integer and a float returns the correct sum.
+
+Checking both float:
+Verify that adding two floats returns the correct sum.
+
+Checking for passed NaN:
+Verify that passing NaN (Not a Number) as an argument raises a ValueError.
+
+Checking for passed inf:
+Verify that passing infinity as an argument raises an OverflowError.
+
+Checking super long int:
+Test adding a very large integer and verify the result.
+
+Checking non-number with number:
+Verify that passing a non-number as the first argument raises a TypeError.
+
+Checking number with non-number:
+Verify that passing a non-number as the second argument raises a TypeError.
+
+Checking non-number with non-number:
+Verify that passing non-number arguments raises a TypeError.
+
+Checking bool with number:
+Verify that passing a boolean value as the first argument raises a TypeError.
+
+Checking number with bool:
+Verify that passing a boolean value as the second argument raises a TypeError.
+
+Checking no args:
+Verify that calling the add_integer function without any arguments raises a TypeError.
+
+Checking one arg:
+Verify that calling the add_integer function with only one argument raises a TypeError.
+
+Checking more than 2 args:
+Verify that calling the add_integer function with more than two arguments raises a TypeError.
