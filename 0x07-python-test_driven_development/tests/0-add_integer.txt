@@ -1,3 +1,11 @@
+# 0-add_integer.txt
+
+=================================
+How to Use 0-add_integer.py
+
+Using ``add_integer``
+-------------------
+
 Importing the function from the module:
 Import the add_integer function from the 0-add_integer module.
 
