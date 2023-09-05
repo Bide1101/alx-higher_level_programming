@@ -5,6 +5,7 @@
 import MySQLdb
 from sys import argv
 
+
 if __name__ == '__main__':
     """
     This access the datatbase and get the states from it.
@@ -16,7 +17,7 @@ if __name__ == '__main__':
 
     db.execute("SELECT * FROM states")
 
-    rowSelect = db.fetchall()
+    rowSelected = db.fetchall()
 
     for row in rowSelected:
         print(row)
