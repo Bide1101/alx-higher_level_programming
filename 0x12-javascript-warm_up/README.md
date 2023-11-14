@@ -1,1 +1,1 @@
-This Directory contains introduction to Javascript programs/codes
+This Directory contains introduction to Javascript codes
